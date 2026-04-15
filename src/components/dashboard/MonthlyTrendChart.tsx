@@ -97,7 +97,7 @@ export default function MonthlyTrendChart({ data }: MonthlyTrendChartProps) {
     <div className="bg-white rounded-xl shadow-sm p-5 flex flex-col">
       <h3 className="text-base font-semibold text-gray-700 mb-4">Monthly Trend</h3>
       <div className="h-56">
-        <Line data={chartData} options={options} />
+        <Line data={chartData} options={options as any} />
       </div>
     </div>
   );
