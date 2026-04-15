@@ -8,7 +8,7 @@ interface LucideIconProps {
 }
 
 export default function LucideIcon({ name, size = 18, className, color }: LucideIconProps) {
-  const IconComponent = (Icons as Record<string, React.ComponentType<{ size?: number; className?: string; color?: string }>>)[name];
+  const Icons = (allIcons as unknown) as Record<string, any>;
   if (!IconComponent) {
     // Fallback: render a generic circle icon
     const Fallback = Icons['Circle'];
