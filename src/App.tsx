@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Sidebar from './components/layout/Sidebar';
 import MobileNav from './components/layout/MobileNav';
 import Dashboard from './pages/Dashboard';
@@ -23,6 +24,7 @@ export default function App() {
         </Routes>
       </main>
       <MobileNav />
+      <Analytics />
     </div>
   );
 }
