@@ -1,50 +1,85 @@
-# React + TypeScript + Vite
+# 💰 FinSplit – Personal Finance & Expense Sharing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-featured personal finance management application that combines **expense tracking** with **Splitwise-style group expense management**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 📊 Dashboard & Analytics
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Track Income, Expenses, Investments, and Net Balance
+* Visual insights with category-wise breakdown and monthly trends
+* Account-wise spending analysis
 
-- Configure the top-level `parserOptions` property like this:
+### 💸 Transaction Management
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+* Add, edit, and filter transactions
+* Multi-account support (Bank, Credit Card, etc.)
+* Categorization with tags and date filters
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 🤝 Split Expenses (Splitwise-like)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+* Split expenses with friends
+* Track who owes whom
+* Manage settlements (settled/unsettled)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 🏦 Account Management
+
+* Track balances across multiple accounts
+* Support for banks and credit cards
+
+### 📈 Reports & Insights
+
+* Weekly and monthly spending reports
+* Category-level analysis
+
+### 📂 Import / Export
+
+* Export all data to Excel
+* Import transactions via structured Excel sheets
+
+---
+
+## 🧠 Tech Stack
+
+* Frontend: React / Next.js
+* Styling: Tailwind CSS
+* Deployment: Vercel
+* State Management: (mention if used)
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Transactions
+
+![Transactions](./screenshots/transactions.png)
+
+### Split Expenses
+
+![Splits](./screenshots/splits.png)
+
+---
+
+## 🎯 Key Highlights
+
+* Combines **personal finance tracking + group expense splitting**
+* Modular and scalable UI architecture
+* Built using modern frontend practices
+
+---
+
+## 🚀 Live Demo
+
+👉 https://vs-testing-ilii.vercel.app/
+
+---
+
+## 👨‍💻 Author
+
+Yash Garg
