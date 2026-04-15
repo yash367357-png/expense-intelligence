@@ -1,47 +1,46 @@
-# 💰 FinSplit – Personal Finance & Expense Sharing App
+# Personal Finance & Expense Sharing App
 
-A modern, full-featured personal finance management application that combines **expense tracking** with **Splitwise-style group expense management**.
+A modern, full-featured personal finance management application that combines **expense tracking** with **Group expense management**.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 📊 Dashboard & Analytics
+### Dashboard & Analytics
 
 * Track Income, Expenses, Investments, and Net Balance
 * Visual insights with category-wise breakdown and monthly trends
 * Account-wise spending analysis
 
-### 💸 Transaction Management
+### Transaction Management
 
 * Add, edit, and filter transactions
 * Multi-account support (Bank, Credit Card, etc.)
 * Categorization with tags and date filters
 
-### 🤝 Split Expenses (Splitwise-like)
+### Split Expenses
 
 * Split expenses with friends
 * Track who owes whom
 * Manage settlements (settled/unsettled)
 
-### 🏦 Account Management
+### Account Management
 
 * Track balances across multiple accounts
-* Support for banks and credit cards
 
-### 📈 Reports & Insights
+### Reports & Insights
 
 * Weekly and monthly spending reports
 * Category-level analysis
 
-### 📂 Import / Export
+### Import / Export
 
 * Export all data to Excel
 * Import transactions via structured Excel sheets
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 * Frontend: React / Next.js
 * Styling: Tailwind CSS
